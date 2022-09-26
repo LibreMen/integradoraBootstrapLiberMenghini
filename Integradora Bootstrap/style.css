@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+}
+/* nav */
+
+.bg-nav {
+  background-color: #343c44;
+}
+
+a.text-secondary:hover {
+  color: white !important;
+}
+
+a.text-white:hover {
+  color: #f8c823 !important;
+}
+
+a.text-success:hover {
+  color: aquamarine !important;
+}
+
+
+/* The hero image */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/ba1.jpg");
+
+  height: 94%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-20%, -50%);
+  color: white;
+}
+
+/* Cards */
+.marginCards{
+  margin: 2rem 8rem;
+}
+
+/* Formulario */
+.textoRecuerda{
+  font-size: smaller;
+  color:  grey;
+}
+
+/* Footer */
+.bg-foot{
+  background-color: #234a62; 
+}
+.bg-foot a{
+  color: white;
+  text-decoration: none;
+}
